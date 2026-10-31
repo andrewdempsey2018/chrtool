@@ -1,8 +1,8 @@
 # CHRtool
 
-Command line utility for editing NES .chr files
+Command line utility for editing NES .chr files.
 
-Expects palette:
+Use .bmp or .png, expects palette:
 
 ![alt text](image.png)
 
@@ -22,10 +22,9 @@ R: 255 G: 255 B: 255
 
 build chr:
 ```
-chrtool -b image1.png image2.png
+chrtool -b image1.png image2.png mychr.chr
 ```
-adds image1 to Pattern Table 0, image2 to Pattern Table 1
-.png and .bmp accepted
+Create mychr.chr and adds image1 to Pattern Table 0, image2 to Pattern Table 1
 
 open chr:
 ```
